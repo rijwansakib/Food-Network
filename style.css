@@ -1,3 +1,62 @@
+#header{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#header h1{
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: 700;
+}
+#header h1 a{
+    text-decoration: none;
+    color: #ffbd1a;
+
+}
+#header ul{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+
+}
+#header ul li{
+    margin-inline: 10px;
+    padding: 25px;
+    
+}
+#header ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: arial;
+    font-weight: 700;
+    color: #ffbd1a;
+    
+}
+#header button{
+    width: 120px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: #972e2e;
+    border-radius: 14px;
+    border: 1px solid #9b0d0d;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+
+
+
+}
+
+
+
+
+
+
+
 #home{
     width: 80%;
     margin: 50px auto;
@@ -19,16 +78,20 @@
     font-weight: bold;
 }
 
- .btn{
+ .btn {
         background-color:#972e2e;;
         border-radius: 15px;
         border: 1px solid #9b0d0d;
         display: inline-block;
-        color: #ffffff;
         font-family: Arial;
+        color: #ffffff;
         font-size: 15px;
         padding: 14px 27px;
 
+}
+.btn a{
+    text-decoration: none;
+    color: #ffffff;
 }
 .btn:hover{
     background-color:#b60303;
@@ -123,6 +186,7 @@
     height: 250px;
 }
 .food-cart{
+    width: 30%;
     text-align: center;
     border-radius: 25px;
     padding: 25px;
